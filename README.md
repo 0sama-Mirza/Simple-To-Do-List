@@ -1,0 +1,4 @@
+# A Simple Shoping Check List. (Practing Javascript)
+# Highlights:
+## In `addItem` I made `li` and `<input type="checkbox"` and did `newli.appendChild(newcheckbox);`.
+## In `removeitem` I got all the checkboxes which are now in an Array. Then I looped it to check if anyone of them is checked or not. The problem was when I removed an item the Array self arranged iteself but the index stayed the same for example: There are 3 items. All of them are checked. Currently `i = 0` so the first item will be removed. But as the array is self aranging the item of `index = 1` will become `index = 0` so it will be skiped. Check the code to see how I solved that. Peace Out ✌️🥷💣💨.   
