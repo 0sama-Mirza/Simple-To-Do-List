@@ -1,42 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>To Do List</title>
-    <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<header>
-		<h1>To Do List:</h1>
-	</header>
-	<section>
-		<main>
-			<h2>Groceries:</h2>
-            <h3>Food:</h3>
-            <ul id="foodulitems">
-            </ul>
-            <input type="text" name="userinputfoodvalue" id="userinputfoodvalue" placeholder="Add Items">
-            <input type="button" value="Add Item" name="addfoodbutton" id="addfoodbutton">
-            <h3>Toys:</h3>
-            <ul id="toysulitems">
-            </ul>
-            <input type="text" name="userinputtoyvalue" id="userinputtoyvalue" placeholder="Add Items">
-            <input type="button" value="Add Item" name="addtoybutton" id="addtoybutton">
-            <h3>Computer Stuff:</h3>
-            <ul id="computerstuffulitems">
-            </ul>
-            <input type="text" name="userinputcomputerstuffvalue" id="userinputcomputerstuffvalue" placeholder="Add Items">
-            <input type="button" value="Add Item" name="addcomputerstuffbutton" id="addcomputerstuffbutton">
-            <div class="removebutton">
-                <input type="button" value="Remove Items" name="removeitems" class="removeitems">
-            </div>
-        </main>
-	</section>
-	<footer>
-        Please Complete The List!
-    </footer>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>To Do List:</h1>
+    </header>
+    <section>
+      <main>
+        <h2>Groceries:</h2>
+        <h3>Food:</h3>
+        <ul id="foodulitems"></ul>
+        <input
+          type="text"
+          name="userinputfoodvalue"
+          id="userinputfoodvalue"
+          placeholder="Add Items"
+        />
+        <input
+          type="button"
+          value="Add Item"
+          name="addfoodbutton"
+          id="addfoodbutton"
+        />
+        <h3>Toys:</h3>
+        <ul id="toysulitems"></ul>
+        <input
+          type="text"
+          name="userinputtoyvalue"
+          id="userinputtoyvalue"
+          placeholder="Add Items"
+        />
+        <input
+          type="button"
+          value="Add Item"
+          name="addtoybutton"
+          id="addtoybutton"
+        />
+        <h3>Computer Stuff:</h3>
+        <ul id="computerstuffulitems"></ul>
+        <input
+          type="text"
+          name="userinputcomputerstuffvalue"
+          id="userinputcomputerstuffvalue"
+          placeholder="Add Items"
+        />
+        <input
+          type="button"
+          value="Add Item"
+          name="addcomputerstuffbutton"
+          id="addcomputerstuffbutton"
+        />
+        <div class="removebutton">
+          <input
+            type="button"
+            value="Remove Items"
+            name="removeitems"
+            class="removeitems"
+          />
+        </div>
+      </main>
+    </section>
+    <footer>Please Complete The List!</footer>
     <script type="text/javascript" src="script.js"></script>
-</body>
+  </body>
 </html>
