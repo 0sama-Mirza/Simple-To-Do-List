@@ -11,7 +11,7 @@ function addItem(inputId, ulId) {
     newcheckbox.id = newitem;
     newcheckbox.name = newitem;
     newcheckbox.value = newitem;
-    newcheckbox.className = ".checkbox";
+    newcheckbox.className = "checkbox";
     newli.appendChild(document.createTextNode(newitem));
     newli.appendChild(newcheckbox);
     ulID.appendChild(newli);
@@ -19,7 +19,7 @@ function addItem(inputId, ulId) {
     console.log(newcheckbox);
 }
 function removeitem (){
-    let checkboxes = document.getElementsByClassName(".checkbox");
+    let checkboxes = document.getElementsByClassName("checkbox");
     console.log(checkboxes);
     for (let i = 0; i < checkboxes.length; i++) {
         let checkbox = checkboxes[i];
